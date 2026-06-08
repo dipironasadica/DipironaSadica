@@ -1,0 +1,24 @@
+#pfp-img{
+    
+    
+    margin-bottom: 0.01rem;
+    width: 8.9rem;
+    height: 8.9rem;
+}
+.box{
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border: 2px solid gray;
+}
+
+
+#name{
+    color:rgb(163, 238, 105)
+}
+#minhaspanelas{
+    min-height: 20rem;
+}
+#amigos-box{
+    min-height: 30%;
+    
+}

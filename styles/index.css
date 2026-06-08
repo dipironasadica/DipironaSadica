@@ -1,0 +1,12 @@
+#comunidades-sessao{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+#comunidades-search{
+    width: 2rem;
+    margin-left:1rem;
+    
+}

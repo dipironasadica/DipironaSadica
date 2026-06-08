@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: whitesmoke;
+   background-color: black;
+}
+#center{
+    max-width: 33vw;
+    margin: auto;
+     position: relative;
+     display: flex;
+     justify-content: center;
+}
+#center::before{ 
+    content: "";
+    position: absolute;
+    right: 100%;
+    width: 33vw;
+    height: 900px;
+  
+     mask-image: linear-gradient(black 50%, transparent 60%);
+
+  
+    z-index: -1; /* behind the box */
+    background: url(/preview.webp) no-repeat;
+    background-size: contain;
+
+ 
+   
+}
+#center::after{ 
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 33vw;
+    height: 900px;
+   
+   
+    z-index: -1; /* behind the box */
+    background: url(/preview.webp) no-repeat;
+    background-size: contain;
+   
+    transform: scalex(-1);
+     mask-image: linear-gradient(black 50%, transparent 60%);
+   
+}
+.part{
+    
+  
+    padding: 1rem;
+    min-height: 45rem;
+}
+
+#right-part{
+    max-width: 40%;
+    width: 40%;
+}
+#left-part{
+   max-width: 60%;
+    width: 60%;
+}
+#nav{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    text-align: center;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+button{ background-color: black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 1px solid whitesmoke;
+}
+.semititle{
+    color: rgb(1, 255, 204);
+}
+.text{
+     font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+.title{
+    text-align: center;
+}
