@@ -24,7 +24,7 @@ A profile page (profile.html) é onde está a maior parte do projeto. na esquerd
 o templade já está feito e aplicado a todos os .html atraves de uma estrutura padrão em html(contendo o nav, a searchbox simples que pretendo mudar, e o nome do site) que pretendo codar em js para facilitar o manuseio, e com um arquivo global.css para o visual, novamente aplicado a todos os arquivos.
 No profile.html, simulei um perfil do DipironaSádica, e já contem box para o sobre mim, minhas panelas (comunidades) lista de amigos, e postagens. 
 
-##oque preocuro
+## oque preocuro
 No geral, ajuda na parte do design dos elementos como player de música, botões etc, (mesmo que seja apenas uma direção e não fazer tudo) estruturar um back-ending funcional, compartilhar sabedoria em sumo. Pessoas com boa visão criativa ou com o mesmo senso estético que viveram a época do Orkut MSN Myspace e que gostariam de sugerir algo que sente falta, corrigir em algum aspecto ou até me fazer entender melhor como essas redes funcionavam para me ajudar.
 
 
